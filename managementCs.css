@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header
+{
+    background-color:#111;
+    margin: 0px;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid white;
+}
+.namepage
+{
+    font-size: 50px;
+    font-weight: 150px;
+    font-style: italic;
+    font-family:serif;
+     padding: 5px;
+     color: honeydew;
+}
+.name
+{
+    color: rgb(219, 164, 61);
+}
+
+#sideimg
+{
+    width: 180px;
+    margin-left: 35px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+hr
+{
+    margin: 10px 0px 10px 30px;
+    color: #818181;;
+    width: 100px;
+    border: .0.2px solid  #818181;;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+#op
+{
+    color: #f2f2f2;
+    float: right;
+    display: inline-block;
+    margin-top: -45px;
+    margin-right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.d2
+{
+position: absolute;
+left: 33%;
+top: 33%;
+}
+
+label
+{
+    font-size: 35px;
+    font-style: italic;
+    color: teal;
+    font-weight: bold;
+    margin-left:  130px;
+}
+
+input[type=button]
+{
+height: 40px;
+width: 240px;
+margin-top: 25px ;
+color: #000;
+font-style: italic;
+border-radius: 5px; 
+}
+input[type=button]:hover
+{
+color: #f2f2f2;
+background-color:#03043b ;
+cursor: pointer;
+}
+
+footer
+{
+    position: absolute;
+    top:95%;
+    width: 100%;
+    background-color: #111;
+    border-top: 2px solid white;
+}
+footer a
+{
+    margin: 5px;
+}
+#con
+{
+    margin: 5px;
+    color: white;
+}
+#right
+{
+    margin-left: 500px;
+    margin-top:50px ;
+    color: white;
+}
+
+.fa-facebook ,.fa-twitter,.fa-instagram
+{
+    color: rgb(219, 164, 61);
+}
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<title>Log in</title>
+<link rel="stylesheet" href="style.css"/>
+<link rel="icon" type="image/jpeg" href="icon.jpeg">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <button onclick="openfunction()"><i class="fa fa-bars"></i></button>
+     <p class="namepage"><span class="name">B</span>ook <span class="name">M</span>ind </p>
+    </header>
+<body>   
+<h1>log in page</h1>
+<div id="form">
+<fieldset>
+<legend>log in </legend>
+<form name=inputForm >
+<label for="e-m">E-mail</label><br>
+<input type="text" id="email" name="e-mail" placeholder="your e-mail.." /><br>
+<label for="un">User Name</label><br>
+<input type="text" id="username" name="username" placeholder="user name.." /><br><br>
+<label for="pasw">Password</label><br>
+<input type ="password" id="pasword" name="pasword" placeholder="your password please.." required   /><br><br>
+<input type ="button" id="log" value="log in" /><br>
+</form>
+</fieldset>
+</div>
+<!--<section id="back">
+<p>here</p>
+</section>-->
+<nav id="sidebar">
+    <button onclick="closefunction()" id="buttonclose">&times;</button>
+    <ul>
+      <img src="sidebarimg.jpg" id="sideimg">
+         <li><a href="../Book mind.html">Home</a></li>
+         <li><a href="../admin/registration.html">Register</a></li>
+         <li><a href="login.html">Login</a></li>
+     </ul>
+</nav>
+<footer>
+        <div>
+       <p id="con">Connect us: <span id="right">All rights reserved to Book Mind &copy 2020</span></p>
+       <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+       <a href="https://twitter.com/" class="fa fa-twitter"></a>
+       <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+</footer>
+<script src="validation.js"></script>
+</body>
+</html>

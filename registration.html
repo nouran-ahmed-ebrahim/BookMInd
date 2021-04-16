@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head> 
+	<title>Register</title>
+    <meta charset="utf-8">
+    <meta name="description" content="site registration">
+	<link rel="icon" type="image/jpeg" href="icon.jpeg">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="regs.css">
+</head>
+<body>
+    <header>
+   
+        <p class="namepage"><span class="name">B</span>ook <span class="name">M</span>ind </p> 
+        <span id ="op" onclick="openNav() ">&#9776;  </span>
+     </header>
+     <div id="mySidenav" class="sidenav">
+         
+       <img src="../media/sidebarimg.jpg" id="sideimg"> 
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <a href="../Book mind.html">Home</a>
+           <a href="registration.html">Register</a>
+           <a href="../login/login.html">Log in</a>
+     </div>
+
+
+<section id="side">
+
+	<img id="sign" src="en.png" >
+</section>
+
+
+<form id="form">
+
+	<h2>Registration Form</h2>
+	<label id="l1" for="fname">First Name :</label>
+	<label id="l2" for="Lname">Last Name :</label>
+	<br>
+    <input id="fn" type="text" name="first name"  placeholder="Your name">
+    <input id="ln" type="text" name="Last Name" placeholder="Your last name"><br>
+     <div id="div1"></div>
+    <div id="div2"></div>
+	<br>
+
+	<label id="l7" for="Birth date">Birth date :</label>
+	<label id="l8">Gender : </label><br>
+	<input id="dt" type="date" >
+	
+	<label id="male" for="male">Male</label>
+	<input id = "ma" type="radio" name="gender" value="Male">
+	&nbsp; &nbsp;
+    <label id="fem" for="femal">Femal</label>
+	<input id="fe" type="radio" name="gender" value="Femal"><br>
+    <div id="div3"></div>
+	<div id="div7"></div>
+	<br>
+	
+
+	<label id="l3" for="country">Country :</label>
+	<label id="l4" for="email">Email :</label><br>
+	<select>
+		<option value="Egypt">Egypt</option>
+		<option value="Saudi">Saudi</option>
+		<option value="sudan">Sudan</option>
+		<option value="moroco">Moroco</option>
+	</select>
+
+	<input id="Email" type="email" name="Email" placeholder="Your email"><br>
+
+    <div id="div4"></div>
+
+	<br>
+
+	<label id="l5" for="password" >Password :</label>
+	<label id="l6" for=" password Confirmation">Confirm password :</label><br>
+	<input id="pass" type="Password" name="Password" placeholder="Enter password">
+	<input id="cpass" type="password" name="Confirm password" placeholder="Confirm password"><br>
+
+    <div id="div5"></div>
+    <div id="div6"></div>
+	<br>
+
+    <input  id="ch" type="checkbox" ><p id="p2"> Accept terms</p>
+    <div id="md">
+   <input id="sub" type="button" id="submit" value="submit">
+    </div>
+    <br>
+ </form>
+
+ <footer>
+            
+	<div id="social">
+	   <p id="con">Connect us: <span id="right">All rights reserved to Book Mind &copy 2020</span></p>
+	   <br>
+	   <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+	   <a href="https://twitter.com/" class="fa fa-twitter"></a>
+	   <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+	</div>
+  
+  </footer>
+  
+<script src="dash/adminJs.js"></script>
+
+<script src="regJS.js"></script>
+</body>
+</html>

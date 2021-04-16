@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>add admin</title>
+    <meta charset="utf-8">
+    <meta name="description" content="admin registration">
+    <link rel="icon" type="image/jpeg" href="icon.jpeg">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="../admin/manage/managementCs.css">
+    <link rel="stylesheet"  href="../admin/add.css">
+</head>
+<body>
+    <header>
+   
+        <p class="namepage"><span class="name">B</span>ook <span class="name">M</span>ind </p> 
+        <span id ="op" onclick="openNav() ">&#9776;  </span>
+     </header>
+     <div id="mySidenav" class="sidenav">
+         
+       <img src="../media/sidebarimg.jpg" id="sideimg"> 
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <a href="dashboard.html">Dashboard</a>
+       <a href="../manageAdmin.html">Management Admins</a>
+       <a href="../admin/Manage books.html">Management Books</a>
+       <a href="../Book mind.html">Log out</a>
+     </div>
+
+
+<fieldset id="form">
+    <legend>Add admin :</legend>
+	<label id="l1" for="fname">First Name :</label><br>
+    <input id="fn" type="text" name="first name"  placeholder="Your name"><br>
+    
+    <div id="div1"></div>
+
+	<label id="l2" for="Lname">Last Name :</label><br>
+    <input id="ln" type="text" name="Last Name" placeholder="Your last name"><br>
+    
+    <div id="div2"></div>
+
+
+    <label id="l4" for="email">Email :</label><br>
+	<input id="Email" type="email" name="Email" placeholder="Your email"><br>
+
+    <div id="div4"></div>
+
+	<label id="l5" for="password" >Password :</label><br>
+	<input id="pass" type="Password" name="Password" placeholder="Enter password"><br>
+
+    <div id="div5"></div>
+
+	<label id="l6" for=" password Confirmation">Confirm password :</label><br>
+	<input id="cpass" type="password" name="Confirm password" placeholder="Confirm password"><br>
+
+    <div id="div6"></div>
+
+    
+    <div id="md">
+   <input id="sub" type="button" id="submit" value="submit">
+    </div>
+    <br>
+ </fieldset>
+ 
+
+ <footer>
+            
+    <div id="social">
+       <p id="con">Connect us: <span id="right">All rights reserved to Book Mind &copy 2020</span></p>
+       <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+       <a href="https://twitter.com/" class="fa fa-twitter"></a>
+       <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div>
+  
+  </footer>
+ <script src="../admin/dash/adminJs.js"></script> 
+<script src="../admin/addadminJs.js"></script>
+</body>
+</html>

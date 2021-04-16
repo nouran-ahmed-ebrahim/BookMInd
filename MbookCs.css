@@ -1,0 +1,45 @@
+
+#fs
+{
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    width: 502px;
+    height:auto;
+    
+}
+legend
+{
+    font-size: 30px; 
+    color: rgb(214, 169, 21);
+    font-weight: bold;
+    margin-left: 20px;
+}
+table
+{
+    margin-left: 25px;
+    text-align: right;
+    margin-top: 18px;
+    color:  rgb(2, 28, 49);
+    font-size: 19px;
+    font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+td
+{
+    padding: 10px;
+    height: 50px;
+}
+
+#de1,#de2,#de3,#de4,#de5,#de6,#de7,#de8,#de9,#de10,#de11,#de12,#de13,#de14
+{
+    margin-right: 125px;
+    color: rgb(216, 11, 11);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer
+{
+    top:180%;
+}

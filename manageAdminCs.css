@@ -1,0 +1,61 @@
+
+
+input[type=button]
+{
+
+height: 35px;
+width: 150px;
+margin: 5px 0px 15px 50px;
+font-style: italic;
+font-size: 17px;
+border-radius: 5px; 
+}
+
+input[type=button]:hover
+{
+background-color: rgb(216, 171, 112) ;
+border-color: burlywood;
+cursor: pointer;
+color: #000;
+}
+#fs
+{
+    border: 3px solid black;
+    position: absolute;
+    left: 28%;
+    top: 30%;
+    width: 502px;
+    
+}
+legend
+{
+    font-size: 30px; 
+    color: rgb(211, 175, 17);
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+table
+{
+    margin-top: 18px;
+    color:  rgb(2, 28, 49);
+    font-size: 19px;
+    font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+td
+{
+    padding: 15px;
+    height: 50px;
+}
+
+#de1,#de2
+{
+    color: rgb(216, 11, 11);
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer
+{
+    top:92.5%;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>manage admin</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Admin managment">
+    <link rel="icon" type="image/jpeg" href="icon.jpeg">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet"  href="../admin/manage/managementCs.css">    
+   <link rel="stylesheet"  href="../admin/manageAdminCs.css">
+</head>
+<body>
+    <header>
+   
+        <p class="namepage"><span class="name">B</span>ook <span class="name">M</span>ind </p> 
+        <span id ="op" onclick="openNav() ">&#9776;  </span>
+     </header>
+     <div id="mySidenav" class="sidenav">
+         
+       <img src="../media/sidebarimg.jpg" id="sideimg"> 
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <a href="../admin/dash/dashboard.html">Dashboard</a>
+       <a href="../admin/manageAdmin.html">Management Admins</a>
+       <a href="../admin/Manage books.html">Management Books</a>
+       <a href="../Book mind.html">Log out</a>
+     </div>
+
+     <br>
+     <br>
+<a href="../admin/nAdmin.html"> <input type="button" value="Add admin"></a>
+
+
+<fieldset id="fs">
+    <legend> Manage Admins : </legend>
+    
+<table>
+<tr id="r1">
+    <td>-</td><td>Ahmed</td><td>ahmed@gmail.com</td><td><p id="de1">Delete</p></td>
+</tr>
+<tr id="r2">
+    <td>-</td><td>mohamed</td><td>mohamed@gmail.com</td><td> <p id="de2">Delete</p></td>
+</tr>
+</table>
+
+</fieldset>
+
+
+<footer>
+            
+    <div id="social">
+       <p id="con">Connect us: <span id="right">All rights reserved to Book Mind &copy 2020</span></p>
+       <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+       <a href="https://twitter.com/" class="fa fa-twitter"></a>
+       <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div>
+  
+  </footer>
+  
+<script src="../admin/dash/adminJs.js"></script>
+<script src="../admin/manageAdminJS.js"></script>
+</body>
+</html>

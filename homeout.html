@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title>Book Mind</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="sheet.css">
+            <link rel="icon" type="image/jpeg" href="icon.jpeg">
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+      <body>
+        <img id="backimg" src="media/bookmind (4).jpg">
+        <header>
+            <button onclick="openfunction()"><i class="fa fa-bars"></i></button>
+             <p class="namepage"><span class="name">B</span>ook <span class="name">M</span>ind </p>
+            </header>
+            <nav id="sidebar">
+                <button onclick="closefunction()" id="buttonclose">&times;</button>
+                <ul>
+                   <img src="media/sidebarimg.jpg" id="sideimg">
+                     <li><a href="homeout.html">Home</a></li>
+                     <li><a href="Book mind.html">Log out</a></li>
+                 </ul>
+               </nav>
+               <aside>
+                <h1> Sections</h1>
+               <p> <a href="#novel">Novels</a></p>
+               <p> <a href="#person">self development</a></p>
+                <p><a href="#lit">Literary texts</a></p>
+               <p> <a href="#syco">psychology</a></p>
+                  </aside>
+          <section>
+                    <div>
+                        <h1>Most popular</h1>
+                        <a href="books/t8.html"><img src="media/gartin.jpg" ></a>
+                        <a href="books/t11.html"><img src="media/still.jpg" ></a>
+                        <a href="books/t3.html"><img src="media/ko.jpg"></a>
+                    </div>
+                    <div>
+                        <h1>Recently added</h1>
+                        <a href="books/t1.html"><img src="media/girl.jpg" ></a>
+                        <a href="books/t5.html"><img src="media/fealhalal.jpg" ></a>
+                        <a href="books/t14.html"><img src="media/dep.jpg"></a>
+                    </div>
+                   <div>
+                    <h1 id="syco"> psychology</h1>
+                   <a href="books/t14.html"> <img src="media/dep.jpg"></a>
+                   <a href="books/t15.html" ><img src="media/alsaada.jpg"></a>
+                    </div>
+                 <div>
+                <h1 id="lit">Literary texts</h1>
+                <a href="books/t11.html"><img src="media/still.jpg"></a>
+                <a href="books/t10.html" ><img src="media/message.jpg"></a>
+                 </div>
+                 <div>
+                <h1 id="person">self development</h1>
+                <a href="books/t13.html"><img src="media/people.jpg"></a>
+                <a href="books/t12.html" ><img src="media/let.jpg"></a>
+                 </div>
+            
+                 <div>
+                <h1 id="novel">Novels</h1>
+                <a href="books/t5.html"><img src="media/fealhalal.jpg"></a>
+                <a href="books/t9.html"><img src="media/akma.jpg"></a>
+                <a href="books/t4.html"><img src="media/halal.jpg"></a>
+                <a href="books/t8.html"><img src="media/gartin.jpg"></a>
+                <a href="books/t1.html"><img src="media/girl.jpg"></a>
+                <a href="books/t3.html"><img src="media/ko.jpg"></a>
+                <a href="books/t7.html"><img src="media/bus.jpg"></a>
+                <a href="books/t6.html" ><img src="media/zecola.jpg"></a>
+                  </div>  
+                </section>
+                <footer>
+            
+                     <div id="social">
+                        <p id="con">Connect us: <span id="right">All rights reserved to Book Mind &copy 2020</span></p>
+                        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                     </div>
+                
+                </footer>
+               <script>
+                function openfunction()
+                {
+                    document.getElementById("sidebar").style.visibility="visible";
+                   
+                }
+               function closefunction()
+                {
+                    document.getElementById("sidebar").style.visibility="hidden";
+                }
+            </Script>
+      </body>
+</html>

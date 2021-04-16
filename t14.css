@@ -1,0 +1,16 @@
+img{position:absolute;width:380px;height:780px;right:1%}
+h1{position:absolute;top:20%;right:32%;color:#990000}
+.main{color:gray;position:absolute;top:5%;right:50%;text-decoration:none}
+.des{direction:rtl;position:absolute;top:30%;right:30%;font-weight:bold;font-size:20px;line-height:40px;word-spacing:5px;
+color:#142b47}
+div{position:absolute;top:100%;right:30%;background:rgba(0,0,0,.1);width:900px;direction:rtl}
+	p{font-weight:bold;font-size:20px;margin:20px;color:#142b47}
+	.b1{padding:10px; border-radius:20px;background:linear-gradient(gray,#C0C0C0,white);
+	position:absolute;top:140%;right:50%;width:100px;font-weight:bold;font-size:15px}
+	.b1:hover{padding:10px; border-radius:20px;background:linear-gradient(orange,#ff974d,white);
+	position:absolute;top:140%;right:50%;width:100px;font-weight:bold;font-size:15px}
+	body{background:#f7f7f7}
+	.b2{padding:10px; border-radius:20px;background:linear-gradient(gray,#C0C0C0,white);
+	position:absolute;top:140%;right:60%;width:100px;font-weight:bold;font-size:15px}
+		.b2:hover{padding:10px; border-radius:20px;background:linear-gradient(gray,#C0C0C0,white);
+	position:absolute;top:140%;right:60%;width:100px;font-weight:bold;font-size:15px}
